@@ -28,14 +28,13 @@ Full assignment can be found [here](https://www.theodinproject.com/paths/full-st
 
     11.Write a #rebalance method which rebalances an unbalanced tree. Tip: You’ll want to use a traversal method to provide a new array to the #build_tree method.
 
-##Tie it all together
 
 Write a simple driver script that does the following:
 
     1.Create a binary search tree from an array of random numbers (Array.new(15) { rand(1..100) })
     2.Confirm that the tree is balanced by calling #balanced?
     3.Print out all elements in level, pre, post, and in order
-    4.nbalance the tree by adding several numbers > 100
+    4.balance the tree by adding several numbers > 100
     5.Confirm that the tree is unbalanced by calling #balanced?
     6.Balance the tree by calling #rebalance
     7.Confirm that the tree is balanced by calling #balanced?
